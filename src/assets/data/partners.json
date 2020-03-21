@@ -13,5 +13,45 @@
         "name":"GDG[x]",
         "link":"https://github.com/gdg-x",
         "img":"gdg-x.svg"
+    },
+    {
+        "name":"Elastic",
+        "link":"https://www.elastic.co/",
+        "img":"1_elastic.png"
+    },
+    {
+        "name":"Shroff Publishers & Distributors",
+        "link":"https://www.shroffpublishers.com/",
+        "img":"1_spd.png"
+    },
+    {
+        "name":"InSync",
+        "link":"https://insync.co.in/about-us/",
+        "img":"1_insync.png"
+    },
+    {
+        "name":"Uvsity",
+        "link":"https://www.uvsity.com/",
+        "img":"1_uvsity.png"
+    },
+    {
+        "name":"DroidCon India",
+        "link":"https://www.droidcon.co.in/",
+        "img":"1_chennai_droidcon.png"
+    },
+    {
+        "name":"Manning",
+        "link":"https://www.manning.com/",
+        "img":"1_manning.png"
+    },
+    {
+        "name":"Pyimagesearch",
+        "link":"https://www.pyimagesearch.com/",
+        "img":"1_pyimagesearch.png"
+    },
+    {
+        "name":"Cisco ThinQbator",
+        "link":"https://www.cisco.com/c/m/en_in/thingqbator.html",
+        "img":"1_cisco.webp"
     }
 ]

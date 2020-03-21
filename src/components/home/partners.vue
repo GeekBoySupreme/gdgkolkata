@@ -4,7 +4,7 @@
             <v-flex xs12 md12>
                 <p class="google-font mt-2 mb-0" style="font-size:170%;color:#37474F;" >Partners</p>
                 <p class="google-font mt-1 mb-0" style="font-size:120%">A very big thank you to all our partners for their continued partnership.</p>
-                <p class="google-font mt-0" style="font-size:120%">If you’re interested in being showcased throughout <b>{{chapterDetails.ChapterName}}</b>, contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> to discuss sponsorship opportunities.</p>
+                <p class="google-font mt-0" style="font-size:120%">If you’re interested in being showcased with <b>{{chapterDetails.ChapterName}}</b>, connect with <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> to discuss sponsorship opportunities.</p>
             </v-flex>
 
             <v-flex xs12 md12 class="mt-2">
@@ -25,7 +25,7 @@
                                         class="pa-0 white elevation-0" 
                                     >
                                     <!-- style="border-radius:5px;border-color:#e0e0e0;border-width: 1px; border-style: solid;" -->
-                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:4px;border-width: 0px; border-style: solid;">
+                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:4px;border-width: 0px; border-style: solid; box-shadow:none!important;">
                                         
                                         <a v-bind:href="itemp.link" target="_blank" >
                                             <v-tooltip bottom>
@@ -33,15 +33,16 @@
                                             <v-img
                                             :src="getImgUrl(itemp.img)"
                                             :lazy-src="getImgUrl(itemp.img)"
-                                            aspect-ratio="3.0"
+                                            contain
+                                            aspect-ratio="1.0"
                                             class="white"
+                                            style="height:100px;"
                                             v-on="on"
                                             >
                                                 <v-layout
                                                     slot="placeholder"
                                                     fill-height
                                                     align-center
-                                                    justify-center
                                                     ma-0
                                                 >
                                                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
